@@ -1,15 +1,15 @@
 <template>
   <div>
-    <WeatherWidget />
+    <WeatherContainer />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import WeatherWidget from './components/WeatherWidget.vue'
+import WeatherContainer from './components/WeatherContainer.vue'
 
 export default defineComponent({
-  components: { WeatherWidget }
+  components: { WeatherContainer }
 })
 </script>
 
